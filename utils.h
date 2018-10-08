@@ -8,9 +8,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-//#define GENOME_LEN 3100000000    // length of human genome
-//#define MER_LEN 36    // must be multiples of 4
-#define GENOME_LEN 1000    // length of human genome
+#define GENOME_LEN 3100000000    // length of human genome
 #define MER_LEN 36    // must be multiples of 4
 
 typedef struct 
