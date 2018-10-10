@@ -70,7 +70,7 @@ mapper align hg19.fa read.fq.gz    # SE
 mapper align hg19.fa read1.fq.gz read2.fq.gz    # PE
 ```
 
-- 直接允许命令获取帮助
+- 不带参数地运行命令可获取帮助
 
 ```bash
 mapper
