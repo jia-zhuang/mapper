@@ -30,7 +30,7 @@ make
 
 ## 3. 使用
 
-- 建立索引
+##### 建立索引
 
 下载人参考基因组文件（hg19 或 hg38），预处理，只保留 1-22，X，Y，M 共 25 条染色体，且染色体命名规则为 chrN（N = 1-22，X，Y，M）。
 
@@ -38,7 +38,7 @@ make
 mapper index hg19.fa
 ```
 
-- 将索引加载到共享内存
+##### 将索引加载到共享内存
 
 ```bash
 mapper shm -l hg19.fa
@@ -61,7 +61,7 @@ mapper shm -p
 mapper shm -d hg19.fa
 ```
 
-- 比对
+##### 比对
 
 测序文件格式为 Fastq，支持压缩格式 .gz
 
@@ -70,7 +70,9 @@ mapper align hg19.fa read.fq.gz    # SE
 mapper align hg19.fa read1.fq.gz read2.fq.gz    # PE
 ```
 
-- 不带参数地运行命令可获取帮助
+##### 获取帮助
+
+不带参数地运行命令可获取帮助
 
 ```bash
 mapper
