@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/License-GPL-brightgreen.svg)
+![](https://img.shields.io/badge/build-pass-brightgreen.svg)
+![](https://img.shields.io/badge/download-1k-brightgreen.svg)
+
 # mapper: 用于 NIPT 和 CNV 的短序列比对工具
 
 ## 0. 简介
